@@ -1,4 +1,12 @@
-background-color: black;
+body{
+   background-color:gray; 
+   font-family: sans-seriff;
+}
+figcaption{
+    text-decoration:overline;
+}
 
-font-size: 20em;
-color: red;
+h1{
+    color: orange;
+    font-size: 1.5em;
+}
