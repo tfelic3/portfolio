@@ -1,12 +1,23 @@
 body{
    background-color:gray; 
-   font-family: sans-seriff;
+   font-family: sans-serif;
+   letter-spacing: 0.3em;
+
 }
-figcaption{
-    text-decoration:overline;
+
+a { text-decoration: none;
 }
 
 h1{
     color: orange;
     font-size: 1.5em;
+}
+
+figure{
+    display:inline-block;
+    width: 150px;
+}
+img{
+    
+    width: 100%;
 }
