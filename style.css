@@ -1,29 +1,71 @@
-body{
-   background-color:gray; 
-   font-family: sans-serif;
-   letter-spacing: 0.3em;
+* {
+    margin: 0;
+    padding: 0;
+  }
 
+body{
+
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: normal;
+   word-spacing: 0.3em;
+   line-height: 1.5em;
+   width: 62.5em;
+   margin: 0 auto;
 }
 
-a { text-decoration: none;
+main{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 33% 33% 33%;
+   min-width: 90px;
+   width: 100%;
+   overflow: hidden;
+} 
+
+
+.story{
+    margin:.2em;
 }
 
 h1{
-    color: orange;
+    color: black;
     font-size: 1.5em;
     text-align:center;
+    text-transform: uppercase;
 }
 
-.grid{
-    display:grid;
-    width: 1600px;
-    height: 800px;
-    grid-template: 1fr / 1fr 1fr 1fr 1fr;
-   
+h2{
+    text-align: center;
 }
 
+h1,h2,nav{
+    margin: 1em;
+}
+a { text-decoration: none;
+    color: black;
+    letter-spacing: 0.2em;
+    font-size: 1em;
+}
 
 img{
-    
-    width: 100%;
+    width: 90%;
+    min-width: 150px;
+    margin: 0 auto;
+}
+
+figcaption{
+    font-size: .8em;
+    text-align: left;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    margin-top: 1em;
 }
